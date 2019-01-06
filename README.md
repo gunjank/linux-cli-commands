@@ -7,3 +7,11 @@ display terminal device
 shows users logged in
 ### ctrl+l
 clear screen
+### cat /etc/shells 
+show all available shells
+### pwd 
+print working directory 
+### ls -a 
+list all including hidden files
+### history
+list history of previously used commands 
