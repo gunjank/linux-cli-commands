@@ -15,3 +15,7 @@ print working directory
 list all including hidden files
 ### history
 list history of previously used commands 
+### cat 
+concatenate files(s) contents
+### tac 
+same as cat except print contents bottom to top
