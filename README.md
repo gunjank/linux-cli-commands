@@ -29,4 +29,29 @@ page file contents - backwords or forward
 page file contents forward 
 ### cut
 display only needed columns , e.g. show fields 1 and 3 only-> cut -f1,3 -d":" /etc/passwd 
+### sort
+display sorted contents , e.g. sort column 3-> sort -k 3 -t":" /etc/passwd
+### cut | sort
+use certain column and then sort  e.g > cut -f1 -d":" /etc/passwd | sort 
+### cp  and mv 
+cp copy, mv move or rename.  -i(interactive) -R (recursive) -a (maintain original user access)
+### rm 
+cp copy, mv move or rename.  -i -rf (recursive)
+### readlink
+read source or target path for a link
+### ls 
+listing -l (long listing) -t(by timestamp),-h(human readable)
+### alias 
+create alias e.g. alias ls='ls --color=auto'
+### useradd  userdel
+add new user or delete existing user e.g -> useradd -m someuser
+### tar
+zip directory or files -cvf(create verbose file), -czvf(z-zip), other (cjvf) e.g -> tar -cvf t1.tar totest/
+
+read content of tar e.g. -> tar -tzf t1.tar
+
+
+
+
+
 
