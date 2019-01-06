@@ -1,6 +1,6 @@
 # linux-cli-commands
 Important Linux CLI Commands 
 
-#tty
+## tty
 display terminal device
 
