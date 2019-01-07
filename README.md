@@ -89,3 +89,9 @@ grep '^server\b' (setting boundry and start of the line)
 
 grep -ve '^#' -ve '^$' '^server\b' (setting boundry and start of the line) 
 
+sample data hello world NB5 7AB and below is search - 
+
+grep -E '[A-Z]{1,2}[0-9]{1,2}[A-Z]?\s[0-9][A-Z]{2}' postcode 
+
+
+
