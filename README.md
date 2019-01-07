@@ -13,8 +13,6 @@ clear screen
 show all available shells
 ### pwd 
 print working directory 
-### ls -a 
-list all including hidden files
 ### history
 list history of previously used commands 
 ### cat 
@@ -42,7 +40,7 @@ cp copy, mv move or rename.  -i -rf (recursive)
 ### readlink
 read source or target path for a link
 ### ls 
-listing -l (long listing) -t(by timestamp),-h(human readable), -F (file type)
+listing -l (long listing) -t(by timestamp),-h(human readable), -F (file type) -a(hidden files)
 ### alias 
 create alias e.g. alias ls='ls --color=auto'
 ### useradd  userdel
